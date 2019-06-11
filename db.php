@@ -3,9 +3,9 @@
 session_start();
 
 $conn = mysqli_connect(
-    'registrodeusuarios-mysqldbserver',
-    'mysqldbuser',
-    '',
+    'registrodeusuarios-mysqldbserver.mysql.database.azure.com',
+    'mysqldbuser@registrodeusuarios-mysqldbserver',
+    'Huevos77',
     'mysqldatabase31336'
 );
     //if(isset($conn)){
